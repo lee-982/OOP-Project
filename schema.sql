@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS members (
     member_id            INT AUTO_INCREMENT PRIMARY KEY,
     full_name            VARCHAR(100)  NOT NULL,
     national_id          VARCHAR(8)    NOT NULL UNIQUE,
-    phone                VARCHAR(13)   NOT NULL,
+    phone                VARCHAR(13)   NOT NULL UNIQUE,
     county               VARCHAR(50)   NOT NULL,
     monthly_contribution DECIMAL(10,2) NOT NULL,
     join_date            DATE          NOT NULL
