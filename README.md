@@ -1,7 +1,7 @@
 # Chama Member Registry (Java Swing + MySQL)
 
 ## Problem
-Many chamas (savings groups) in Kenya keep records in notebooks or WhatsApp. This causes lost
+Many chamas, mostly known as savings groups in Kenya, keep records in notebooks or WhatsApp. This causes lost
 records, duplicate members, and disputes over contributions. This system stores and manages
 member details in a MySQL database so the treasurer/secretary can add, view, update and delete
 members quickly and accurately.
